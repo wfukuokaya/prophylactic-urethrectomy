@@ -1,25 +1,23 @@
-# Oncological outcomes of prophylactic urethrectomy at the time of radical cystectomy for bladder cancer
+# Prophylactic urethrectomy at radical cystectomy for bladder cancer
 
-This repository contains the R code used in the study.
+R code for the analysis reported in:
 
-In this observational study, we assessed the effect of prophylactic urethrectomy on oncological outcomes in patients undergoing radical cystectomy for bladder cancer. We used data from the Japan Urological Oncology Group radical cystectomy database to compare overall survival, cancer-specific survival, and recurrence-free survival between patients who underwent radical cystectomy with or without prophylactic urethrectomy.
+> Oncological outcomes of prophylactic urethrectomy at the time of radical cystectomy for bladder cancer.
 
-We did not find evidence that prophylactic urethrectomy improves oncological outcomes in patients undergoing radical cystectomy for bladder cancer.
+Observational study using the Japan Urological Oncology Group radical cystectomy database; overall, cancer-specific, and recurrence-free survival compared with and without prophylactic urethrectomy.
 
-## Repository contents
+## Contents
 
-| File | Description |
-|---|---|
-| `script.R` | Analysis script (R) |
+`script.R`: analysis.
 
 ## Requirements
 
-R (version 4.x) with the following packages: `cobalt`, `gdata`, `ggeffects`, `ggsci`, `ggsurvfit`, `gtsummary`, `missForest`, `patchwork`, `pec`, `smd`, `survival`, `survminer`, `tidyverse`, `WeightIt`.
+R 4.x with `cobalt`, `gdata`, `ggeffects`, `ggsci`, `ggsurvfit`, `gtsummary`, `missForest`, `patchwork`, `pec`, `smd`, `survival`, `survminer`, `tidyverse`, `WeightIt`.
 
-## Data availability
+## Data
 
-This repository contains analysis code only. The patient-level data analysed in the study are not distributed here.
+Patient-level data are not included in this repository.
 
 ## License
 
-The code in this repository is released under the [MIT License](LICENSE).
+[MIT](LICENSE)
